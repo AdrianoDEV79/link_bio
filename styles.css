@@ -46,7 +46,7 @@ li {
 
 .top {
     margin-top: -5%;
-    background-image: url(./imagefundo.jpg);
+    background-image: url(imagefundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
