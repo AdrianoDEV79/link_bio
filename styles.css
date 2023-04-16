@@ -168,9 +168,9 @@ footer {
 
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:375px){
     .top{
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
 }
 
