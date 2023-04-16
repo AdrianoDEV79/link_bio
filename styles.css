@@ -56,7 +56,7 @@ li {
 }
 
 .top {
-    background-image: url(./image/imagefundo.jpg);
+    background-image: url(imagefundo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
@@ -136,6 +136,7 @@ footer {
     
     .prof{
         font-size: 25px;
+        margin-bottom:3%;
     }
 
     .top{
