@@ -37,7 +37,7 @@ h1 {
 .prof {
     padding: 0;
     margin: 0;
-    font-size: max(10px, 1rem);
+    font-size: max(10px, 2rem);
     font: bold;
     color: var(--cor4);
 }
@@ -56,7 +56,7 @@ li {
 }
 
 .top {
-    background-image: url(imagefundo.jpg);
+    background-image: url(./image/imagefundo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
@@ -72,7 +72,9 @@ li {
     background-color: var(--cor3);
 }
 
- .cont {
+
+
+.cont {
     position: relative;
     width: 90%;
     margin-left: 5%;
@@ -121,8 +123,9 @@ footer {
 
 /* media pra algumas telas */
 
-@media screen and (max-width:412px) {
-      .tudo{
+@media screen and (max-width:415px) {
+
+    .tudo{
         width:100vw;
         height: 100vh;
     }
@@ -169,3 +172,5 @@ footer {
         margin-bottom: 18%;
     }
 }
+
+
