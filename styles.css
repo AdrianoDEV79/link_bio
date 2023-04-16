@@ -72,11 +72,7 @@ li {
     background-color: var(--cor3);
 }
 
- li:last-child{
-    margin-bottom: 7%;
-   }
-
-.cont {
+ .cont {
     position: relative;
     width: 90%;
     margin-left: 5%;
@@ -149,8 +145,12 @@ footer {
 
     .imglink{
         width: 20%;
-        
     }
+    
+    li:last-child{
+    margin-bottom: 7%;
+   }
+    
    .cont{
     width: 70vw;
     margin-left: 15%;
