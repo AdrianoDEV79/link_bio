@@ -123,18 +123,26 @@ footer {
 
 /* media pra algumas telas */
 
-@media screen and (max-width:375px) {
-.tudo{
+@media screen and (max-width:425px) {
+   .tudo{
         width:100% ;
         height: 100vh;
     }
 
     h1{
-        font-size: 30px;
+        font-size: max(25px, 1.8em);
     }
     
     .prof{
         font-size: 25px;
+    }
+
+    .top{
+        margin-bottom: 20%;
+    }
+
+    .foto{
+        margin-top: 2.2%;
     }
 
     .imglink{
@@ -144,11 +152,12 @@ footer {
    .cont{
     width: 70vw;
     margin-left: 15%;
-   }
+   } 
 
    .plink{
     font-size: 1.5em;
     padding: 1.5%;
     padding-left: 30%;
    }
+
 }
