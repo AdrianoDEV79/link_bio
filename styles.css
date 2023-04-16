@@ -121,7 +121,7 @@ footer {
 
 /* media pra algumas telas */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:412px) {
    .tudo{
         width:100% ;
         height: 100vh;
