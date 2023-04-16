@@ -72,7 +72,9 @@ li {
     background-color: var(--cor3);
 }
 
-
+ li:last-child{
+    margin-bottom: 7%;
+   }
 
 .cont {
     position: relative;
