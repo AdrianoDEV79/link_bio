@@ -122,8 +122,8 @@ footer {
 /* media pra algumas telas */
 
 @media screen and (max-width:412px) {
-   .tudo{
-        width:100% ;
+      .tudo{
+        width:100vw;
         height: 100vh;
     }
 
@@ -136,7 +136,7 @@ footer {
     }
 
     .top{
-        margin-bottom: 20%;
+        margin-bottom: 0;
     }
 
     .foto{
@@ -145,21 +145,27 @@ footer {
 
     .imglink{
         width: 20%;
+        
     }
-    
-    li:last-child{
-    margin-bottom: 5.5%;
-   }
-    
    .cont{
     width: 70vw;
     margin-left: 15%;
    } 
 
-   .plink{
+   li:last-child{
+    margin-bottom: 5.5%;
+   }
+
+    .plink{
     font-size: 1.5em;
     padding: 1.5%;
     padding-left: 30%;
    }
 
+}
+
+@media screen and (max-width:375px){
+    .top{
+        margin-bottom: 18%;
+    }
 }
