@@ -167,9 +167,10 @@ footer {
    }
 
 }
-@media screen and (max-width:414px){
+
+@media screen and (max-width:360px){
     .top{
-        margin-bottom: 16%;
+        margin-bottom: 20%;
     }
 }
 
