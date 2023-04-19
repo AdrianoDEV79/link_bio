@@ -121,9 +121,9 @@ footer {
     color: var(--cor4);
 }
 
-/* media pra algumas telas */
+/* media pra algumas telas ================================================*/
 
-@media screen and (max-width:415px) {
+@media (max-width:420px) {
 
     .tudo{
         width:100vw;
@@ -136,11 +136,10 @@ footer {
     
     .prof{
         font-size: 25px;
-        padding-bottom:4%;
     }
 
     .top{
-        margin-bottom: 15%;
+        margin-bottom: 0;
     }
 
     .foto{
@@ -168,11 +167,8 @@ footer {
 
 }
 
-@media screen and (max-width:380px){
+@media (max-width:375px){
     .top{
-        margin-bottom: 5%;
+        margin-bottom: 14%;
     }
 }
-
-
-
