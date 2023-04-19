@@ -139,7 +139,7 @@ footer {
     }
 
     .top{
-        margin-bottom: 0;
+        margin-bottom: 10%;
     }
 
     .foto{
@@ -169,6 +169,6 @@ footer {
 
 @media (max-width:375px){
     .top{
-        margin-bottom: 16%;
+        margin-bottom: 14%;
     }
 }
